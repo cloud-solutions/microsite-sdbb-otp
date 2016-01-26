@@ -16,7 +16,8 @@ hooks:
         gulp
 web:
   document_root: "/public"
-  index_files: index.html
+  index_files:
+      - index.html
   whitelist:
       # CSS and Javascript.
       - \.css$
