@@ -1,0 +1,16 @@
+{
+  "name": "microsite-sdbb-otp",
+  "version": "1.0.0",
+  "description": "Infosite about the OTP for the Best of Swiss Web Awards.",
+  "author": "cloud solutions",
+  "repositry": "",
+  "licence": "",
+  "dependencies": {
+    "gulp": "^3.9.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-cssnano": "^2.1.0",
+    "gulp-gzip": "^1.2.0",
+    "gulp-less": "^3.0.5",
+    "gulp-watch-less": "^1.0.1"
+  }
+}
