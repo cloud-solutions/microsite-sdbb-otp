@@ -9,7 +9,9 @@ var publicPath = 'public/';
 
 gulp.task('default', ['prod']);
 
-gulp.task('prod', []);
+gulp.task('prod', [
+    'compile-less'
+]);
 gulp.task('dev', []);
 
 gulp.task('compile-less', function() {
