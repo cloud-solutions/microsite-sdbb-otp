@@ -16,7 +16,6 @@ hooks:
         gulp
 web:
   document_root: "/public"
-  passthru: "/index.html"
   whitelist:
       # CSS and Javascript.
       - \.css$
