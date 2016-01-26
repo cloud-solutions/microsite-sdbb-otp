@@ -18,6 +18,7 @@ web:
   document_root: "/public"
   index_files: ["index.html"]
   whitelist:
+      - \.html$
       # CSS and Javascript.
       - \.css$
       - \.js$
