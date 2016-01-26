@@ -1,0 +1,25 @@
+http://www.{default}/:
+  to: http://{default}/
+  type: redirect
+http://{default}/:
+  redirects:
+    expires: -1s
+    paths: {}
+  to: https://{default}/
+  type: redirect
+https://{default}/:
+  cache:
+    cookies:
+    - '*'
+    default_ttl: 0
+    enabled: false
+    headers:
+    - Accept
+    - Accept-Language
+  redirects:
+    expires: -1s
+    paths: {}
+  ssi:
+    enabled: false
+  type: upstream
+  upstream: microsite:php
