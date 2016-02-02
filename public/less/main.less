@@ -6,8 +6,8 @@ body {
 	overflow-x: hidden;
 }
 
-p {
-	font-size: 18px;
+p, ul li {
+	font-size: 17px;
 }
 
 p.small {
@@ -90,7 +90,7 @@ header {
 			font-family: @font;
 			text-transform: uppercase;
 			font-weight: 400;
-			font-size: 1.8em;
+			font-size: 3em !important;
 		}
 		.skills {
 			font-size: 1.1em;
@@ -118,21 +118,30 @@ header {
 
 @media(min-width:768px) {
     .navbar-fixed-top {
-        padding: 25px 0;
+        padding: 15px 0;
         -webkit-transition: padding 0.3s;
         -moz-transition: padding 0.3s;
         transition: padding 0.3s;
 	    .navbar-brand {
-	        font-size: 1.5em;
+	        font-size: 1.4em;
 	        -webkit-transition: all 0.3s;
 	        -moz-transition: all 0.3s;
 	        transition: all 0.3s;
 	    }
+		ul li {
+			font-size: 16px;
+			-wekit-transition: all 0.3s;
+			-moz-transition: all 0.3s;
+			transition: all 0.3s;
+		}
     }
     .navbar-fixed-top.navbar-shrink {
-        padding: 10px 0;
+        padding: 5px 0;
+		ul li {
+			font-size: 14px;
+		}
 		.navbar-brand {
-	        font-size: 1.5em;
+	        font-size: 1.2em;
 	    }
 	}
 }
