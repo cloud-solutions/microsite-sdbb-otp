@@ -239,18 +239,17 @@ section.success {
 
 .btn-outline {
   color: white;
-  font-size: 20px;
   border: solid 2px white;
-  background: transparent;
+  background-color: @brand-primary;
   transition: all 0.3s ease-in-out;
-  margin-top: 15px;
+  margin: 5px 0;
   &:hover,
   &:focus,
   &:active,
   &.active {
     color: @brand-success;
     background: white;
-    border: solid 2px white;
+    border: solid 2px @brand-primary;
   }
 }
 
@@ -330,6 +329,17 @@ footer {
   background-color: yellow;
   color: black;
 }
+
+.carousel {
+  min-height: 800px;
+}
+
+.pictures {
+  width: auto;
+  height: 800px;
+  max-height: 800px;
+}
+
 .carousel-indicators {
   li {
     border-color: @brand-primary;
@@ -341,6 +351,21 @@ footer {
 
 .carousel-control {
   background-color: transparent !important;
+}
+
+.carousel-caption {
+  position: relative;
+  left: auto;
+  right: auto;
+  color: black;
+  background-color: white;
+  margin-top: 20px;
+  text-shadow: none;
+  font-size: 17px;
+  font-weight: 700;
+  i {
+    color: @brand-primary;
+  }
 }
 
 .padding-top {
