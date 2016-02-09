@@ -19,6 +19,7 @@ web:
   index_files: ["index.html"]
   whitelist:
       - \.html$
+      - \.pdf$
       # CSS and Javascript.
       - \.css$
       - \.js$
